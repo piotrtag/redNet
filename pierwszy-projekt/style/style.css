@@ -27,6 +27,7 @@ nav a{
     text-decoration: none;
     text-align: center;
     transition: 0.3s;
+    max-width: 10%;
 }
 a.btn1{
     width: 10%;
@@ -83,17 +84,17 @@ a.btn11:hover{
 /* Header */
 header{
     font-family: arial;
-    text-align: center;
-    margin: 70px 250px;
+    width: 50vw;
+    background-color:#ddd;
+    margin: 100px auto;
 }
 header h1{
-    font-size: 70px;
+    font-size: 40px;
 }
 /* Main */
 main{
-
-    width: 50%;
-    margin: 20px auto;
+    margin-top: 10px;
+    width: 70%;
     text-align: left;
 
 }
