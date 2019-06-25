@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.wrapper{
+}
+/* Nawigacja */
+nav{
+    font-size: 0;
+    background-color: black;
+    margin: 0;
+
+}
+nav a{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: blue;
+    font-size: 15px;
+    width: 10%;
+    height: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+}
+a.btn1{
+    width: 10%;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+a.btn7{
+    background-color: orangered;
+    border-radius: 5px;
+    width: 8%;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid orangered;
+}
+a.btn2:hover{
+    border-bottom: 2px solid orangered;
+    color: orangered;
+}
+a.btn3:hover{
+    border-bottom: 2px solid orangered;
+    color: orangered;
+}
+a.btn7:hover{
+    background-color:black;
+    border: 2px solid orangered;
+}
+a.btn8{
+    width: 5%;
+    background-color: black;
+    margin-left: 100px;
+}
+a.btn9{
+    width: 5%;
+}
+a.btn10{
+    width: 5%;
+}
+a.btn11{
+    width: 5%;
+}
+a.btn8:hover{
+    background-color: orangered;
+}
+a.btn9:hover{
+    background-color: orangered;
+}
+a.btn10:hover{
+    background-color: darkblue;
+}
+a.btn11:hover{
+    background-color: orangered;
+}
+/* Header */
+header{
+    font-family: arial;
+    text-align: center;
+    margin: 70px 250px;
+}
+header h1{
+    font-size: 70px;
+}
+/* Main */
+main{
+
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+
+}
+/* Footer */
+footer{
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: arial;
+    line-height: 30px;
+    font-weight: bold;
+}
